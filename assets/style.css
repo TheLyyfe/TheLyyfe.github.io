@@ -1,0 +1,72 @@
+.navbar{
+    background-color: indianred;
+}
+.pp {
+    width: 25%;
+    height: auto;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.presentation{
+    font-size: x-large;
+}
+.presentation :nth-of-type(2){
+    text-transform: uppercase;
+}
+
+h1{
+    text-align: center;
+    border-left: 350px solid indianred;
+    border-right: 350px solid indianred;
+}
+
+.btn{
+    background-color: indianred;
+}
+.offcanvas{
+    background-color: indianred;
+}
+
+header{
+    margin-bottom: 100px;
+}
+
+.deal{
+    display: flex;
+    justify-content: space-around;
+    margin: 10%;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+p{
+    text-align: center;
+}
+
+#bio,  #comp{
+    padding-left: 2%;
+    border-left: 50px solid indianred;
+    border-right: 50px solid indianred;
+    margin-top: 10%;
+}
+:target::before {
+    content: " ";
+    display: block;
+    height: 4rem;         /* hauteur de la partie fixe */
+    margin-top: -4rem;    /* moins la hauteur de la partie fixe */
+  }
+
+.taken{
+    margin-top: 5%;
+}

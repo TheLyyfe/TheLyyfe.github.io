@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+p,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Mon code */
+@font-face {
+    font-family: 'Nu Hanafudaya';
+    src: url('NuHanafudaya-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+header {
+    padding: 10px;
+    background-color: #0d9263;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#zelda {
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: "Nu Hanafudaya";
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+#triforce:hover{
+    content: url(../images/icons8-triforcejaune-100.png);
+    /* background-position: ; */
+    /* background-repeat: no-repeat;
+    z-index: 9999; */
+}
+
+#pika:hover{
+    content: url(../images/icons8-pokémoncolor-90.png);
+}
+
+#itsame:hover{
+    content: url(../images/ITAMEMARIO.png);
+}
+
+body {
+    background-image: url(../images/zelda-forest.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 1080px; */
+    color: white;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h2{
+    padding-left: 10px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h3{
+    padding-left: 10px;
+}
+
+h1, h2, h3{
+    text-decoration:underline;
+}
+
+section {
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#oot {
+    width: 40%;
+}
+
+#totk {
+    width: 30%;
+}
+
+#jeux {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles {
+    /* display: flex;
+    align-items: flex-start; */
+    text-align: center;
+    /* justify-content: center; */
+    padding: 50px;
+}
+
+/* #big {
+    border-left: 0.5px black solid;
+    border-right: 0.5px black solid;
+} */
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: rgba(88, 88, 88, 0.41);
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+.collapsible {
+    background-color: rgba(88, 88, 88, 0.41);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: rgba(49, 49, 49, 0.41);;
+}
+
+.content {
+    padding: 0 18px;
+    /* display: none; */
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+.content > p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.artimg{
+    padding: 10px;
+}
+
+#history > p{
+    padding-left: 20px;
+}

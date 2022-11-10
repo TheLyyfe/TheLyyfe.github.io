@@ -128,7 +128,14 @@ table {
 /* Mon code */
 @font-face {
     font-family: 'Nu Hanafudaya';
-    src: url('NuHanafudaya-Regular.ttf') format('truetype');
+    src: url('../fonts/NuHanafudaya-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    font-family: 'Hylia Serif Beta';
+    src: url('../fonts/HyliaSerifBeta-Regular.woff2') format('woff2'),
+        url('../fonts/HyliaSerifBeta-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -202,6 +209,11 @@ h3{
 
 h1, h2, h3{
     text-decoration:underline;
+    font-family: "Hylia Serif Beta";
+}
+
+h4{
+    font-family: "Hylia Serif Beta";
 }
 
 section {
@@ -228,7 +240,7 @@ section {
     align-items: flex-start; */
     text-align: center;
     /* justify-content: center; */
-    padding: 50px;
+    padding: 5%;
 }
 
 /* #big {
@@ -295,4 +307,22 @@ blockquote p::after {
 
 #history > p{
     padding-left: 20px;
+}
+
+p{
+    font-family: "Berlin Sans FB";
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    text-align:right;
+}
+
+@media screen and (max-width: 768px){
+
+    #timeline{
+        width: 100%;
+    }
+    
 }

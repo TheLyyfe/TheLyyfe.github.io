@@ -1,0 +1,124 @@
+@media screen and (max-width: 900px) {
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #logo {
+        font-family: "Nu Hanafudaya";
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        padding: 2%;
+    }
+
+    /* ****************** MAIN *******************/
+    #logo_poke {
+        width: 250px;
+        height: 100px;
+    }
+
+    .container_logo {
+        text-align: center;
+        margin: auto;
+    }
+
+    #h1 {
+        font-family: "Pokemon";
+        font-size: xx-large;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-family: "Pokemon";
+        font-size: large;
+        text-align: center;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    /*  ----------------- PARTIE A PROPOS -------------- */
+    .propos {
+        font-family: "Pokemon";
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        margin-left: 70px;
+        margin-right: 70px;
+        text-align: center;
+    }
+
+    div {
+        font-family: "RetroGaming";
+    }
+
+    #img1 {
+        display: flex;
+        margin: auto;
+        height: 65%;
+        width: 70%;
+        text-align: center;
+    }
+
+    /*  ----------------- PARTIE ANIME -------------- */
+    .anime {
+        margin-top: 70px;
+        margin-left: 70px;
+        margin-right: 70px;
+        text-align: center;
+    }
+
+    #imganime {
+
+        width: 100%;
+    }
+
+
+
+    /*  ----------------- PARTIE JEUX -------------- */
+    .jeuxvideos {
+        margin-top: 70px;
+        margin-left: 70px;
+        margin-right: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jeuxvideos>article {
+        display: flex;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .jeuxvideos>img {
+        position: relative;
+        display: flex;
+        flex: 1;
+    }
+
+    /*  ----------------- PARTIE CARTE -------------- */
+    .carte {
+        margin-top: 70px;
+        margin-left: 70px;
+        margin-right: 70px;
+        text-align: center;
+    }
+
+    #imgcarte {
+        width: 100%;
+
+    }
+
+
+}

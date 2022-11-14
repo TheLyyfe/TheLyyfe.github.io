@@ -1,0 +1,249 @@
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+    RESET CSS
+*/
+    
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* ******************************** DEBUT DU CODE CSS ***********************************/
+    
+    body {
+        background-image: url(https://www.ungeek.ph/wp-content/uploads/2020/04/25.jpg);
+    }
+    /*   **************** HEADER *****************  */
+     @font-face {
+        font-family: 'Pokemon';
+        src: url('fonts/PokemonGb-RAeo.ttf');
+    }
+    @font-face {
+        font-family: 'RetroGaming';
+        src: url('fonts/RetroGaming.ttf');
+    }
+    
+    @font-face {
+        font-family: 'Nu Hanafudaya';
+        src: url('fonts/NuHanafudaya-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    
+
+    header {
+        background: rgb(255, 0, 21);
+        background: linear-gradient(180deg, rgba(255, 0, 21, 1) 0%, rgba(0, 0, 0, 0.700717787114846) 48%, rgba(255, 255, 255, 0.4990371148459384) 61%);
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #logo {
+        font-family: "Nu Hanafudaya";
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        padding: 2%;
+    }
+
+    /* ****************** MAIN *******************/
+        #logo_poke {
+        width: 250px;
+        height: 100px;
+    }
+    
+    .container_logo {
+        text-align: center;
+        margin: auto;
+    }
+
+    #h1 {
+        font-family: "Pokemon";
+        font-size: xx-large;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    h2 {
+        font-family: "Pokemon";
+        font-size: large;
+        text-align: center;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+            /*  ----------------- PARTIE A PROPOS -------------- */
+    .propos {
+        font-family: "Pokemon";
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+        text-align: center;
+    }
+     
+div{
+    font-family: "RetroGaming";
+}
+
+    #img1 {
+        display: flex;
+        margin: auto;
+        height: 65%;
+        width: 70%;
+        text-align: center;
+    }
+
+    /*  ----------------- PARTIE ANIME -------------- */
+    .anime {
+        margin-top: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+        text-align: center;
+    }
+    
+    #imganime {
+        height: 5000;
+        width: 50%;
+    }
+    
+        /*  ----------------- PARTIE JEUX -------------- */
+    .jeuxvideos {
+        margin-top: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+       display: flex;
+       
+       align-items: center;
+        
+    }
+    
+    .jeuxvideos>article {
+        display: flex;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    
+    .jeuxvideos>img {
+        position: relative;
+        display: flex;
+        flex: 1;
+    }
+    
+
+        /*  ----------------- PARTIE CARTE -------------- */
+    .carte {
+        margin-top: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+        text-align: center;
+    }
+
+    #imgcarte{
+        width: 100%;
+        
+    }
+    /* ******************* FOOTER ******************/
+    
+    footer {
+
+        position: sticky;
+        bottom: 0;
+        text-align: right;
+    }

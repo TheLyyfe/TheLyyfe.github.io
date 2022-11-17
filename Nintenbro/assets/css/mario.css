@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/******************** Début du css **************/
+@font-face {
+    font-family: 'Nu Hanafudaya';
+    src: url('NuHanafudaya-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Retro Gaming';
+    src: url('../font/RetroGaming.ttf'); 
+
+}
+
+
+header{
+    background-color: red;
+    padding: 10px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#om{
+    padding-top : 2%;
+}
+
+#mario {
+    font-family: "Nu Hanafudaya";
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+#h1{
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    background-color: red;
+    color: whitesmoke;
+}
+#h2{
+    
+    padding-bottom: 50px;
+    margin-bottom: 1px;
+    color: whitesmoke;
+    font-family: "Mario";
+}
+#gaillard{
+    font-weight: bold;
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-end
+
+    
+}
+
+#contener-logo img{
+    width: 100%;
+
+}
+body{
+    background-image: url(../image/rouge.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    
+}
+article{
+text-align: center;
+    font-weight: bold;
+    
+    
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+
+}
+#intro_photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#intro_photo img{
+    width: 100%;
+}
+
+
+p{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-family: Retro Gaming;
+    
+}
+
+
+
+#lorem{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke; 
+    
+}
+
+#lorem2{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+h2{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    
+
+}
+
+h2 img {
+    width: 100%;
+}
+#liste li{
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bold;
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+
+}
+
+#liste{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#mario64{
+    display: flex;
+    width: 150px;
+    padding-top: 50px;
+    margin: auto;
+    
+    
+}
+#sun{
+    display: flex;
+    width: 100px;
+    padding-top: 50px;
+    margin: auto;
+    
+    
+}
+#kart{
+    display: flex;
+    width: 150px;
+    padding-top: 50px;
+    margin: auto;
+}
+#smash{
+    display: flex;
+    width: 100px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+p{
+    font-weight: bold;
+}
+footer{
+    position: sticky;
+    bottom: 0;
+    text-align: right;
+}

@@ -167,7 +167,7 @@
             /*  ----------------- PARTIE A PROPOS -------------- */
     .propos {
         font-family: "Pokemon";
-        display: flex;
+        /* display: flex; */
         align-content: center;
         flex-wrap: wrap;
         margin-top: 100px;
@@ -197,7 +197,7 @@ div{
     }
     
     #imganime {
-        height: 5000;
+        height: 70%;
         width: 50%;
     }
     
@@ -235,10 +235,7 @@ div{
         text-align: center;
     }
 
-    #imgcarte{
-        width: 100%;
-        
-    }
+
     /* ******************* FOOTER ******************/
     
     footer {

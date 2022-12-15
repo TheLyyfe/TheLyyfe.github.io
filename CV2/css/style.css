@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Kollektif;
+    src: url(polices/Kollektif.ttf);
+  }
+  @font-face {
+    font-family: Kollektif-Bold;
+    src: url(polices/Kollektif-Bold.ttf);
+  }
+  @font-face {
+    font-family: Kollektif-BoldItalic;
+    src: url(polices/Kollektif-BoldItalic.ttf);
+  }
+  @font-face {
+    font-family: Kollektif-Italic;
+    src: url(polices/Kollektif-Italic.ttf);
+  }
+
+
+h1{
+    font-family: Kollektif-Bold;
+}
+h2{
+    font-family: Kollektif-BoldItalic;
+}
+
+
+
+.navbar {
+    font-family: Kollektif;
+    background-color: #EBE5E5;
+    
+}
+
+.formations {
+    background: linear-gradient(89.94deg, rgba(7, 59, 76, 0.8) 0.06%, rgba(1, 26, 35, 0.8) 99.96%);;
+    position: relative;
+    display: grid;
+    text-align: justify;
+    justify-content: center;
+    width: 100%;
+    padding: 5vw;
+    font-family: Kollektif;
+}
+
+.experience {
+    background: linear-gradient(90deg, rgba(249, 170, 51, 0.75) 0%, rgba(255, 197, 110, 0.75) 100%);
+    position: relative;
+    display: grid;
+    text-align: justify;
+    justify-content: center;
+    padding: 5vw;
+    font-family: Kollektif
+}
+
+.skills {
+    background-color: #252B35;
+    font-family: Kollektif
+}
+
+.button-skill {
+    background-color: #252B35;
+    color: #EBE5E5;
+    border: none;
+    border-radius: 30px;
+    
+}
+.skilltext{
+    color: #EBE5E5;
+}
+
+.navbar-toggler {
+    border: transparent;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    color: #EBE5E5;
+}
+
+.contact {
+    border-color: #B85282;
+    color: #B85282;
+    border-radius: 32px;
+}
+
+.name {
+    color: #252B35;
+}
+
+
+.exptext{
+    color: #252B35;
+}
+.formtext{
+    color: #EBE5E5;
+}
+
+.dateform {
+    color: #FFC56E;
+    font-family: Kollektif-BoldItalic;
+}
+.dateexp{
+    color: #B85282;
+}
+
+
+i{
+    color: #252B35;
+}
+
+.modal{
+    color: #91091e;
+}
+
+h8{
+    color: #B85282;
+}
+h5{
+    color: #FFC56E;
+}
+
+
+.titlename{
+   justify-content:center;
+}
+
+.fas{
+    color: black;
+}
+
+.send{
+    border-color: #91091e;
+    color: #91091e;
+    border-radius: 32px;
+}
+
+@media screen and (min-width: 769px){
+    .name-short{
+    display: none;
+}
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .contact {
+        font-size: 50%;
+    }
+    .navbar-toggler, .button-skill {
+        font-size: 100%;
+    }
+    i{
+        font-size: 50%;
+    }
+    .name-short{
+        display: none;
+    }
+   }
+
+   @media screen and (max-width: 426px){
+    .name {
+    display: none;
+}
+.name-short{
+        display: inline-block;
+        font-size: 80%;
+        color: #252B35;
+    }
+    .contact {
+            font-size: 10%;
+        }
+    .navbar-toggler, .button-skill {
+            font-size: 40%;
+        }
+    .icon-contact{
+            font-size: 40%;
+        }
+    /* i{
+        font-size: 50%;
+    } */
+   
+}
+
+   /* @media screen and (max-width: 768px){
+
+   } */

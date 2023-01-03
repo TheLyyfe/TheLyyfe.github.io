@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+    background-color: blue;
+    border: 10px solid navy;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color: white;
+    border: 5px solid navy;
+    border-radius: 50%;
+}
+
+.red-piece{
+    
+    background: rgb(111,1,1);
+background: radial-gradient(circle, rgba(111,1,1,1) 0%, rgba(252,70,70,1) 100%);
+}
+
+.yellow-piece{
+    background: rgb(120,122,1);
+background: radial-gradient(circle, rgba(120,122,1,1) 0%, rgba(240,252,0,1) 100%);
+}
+
+
+
+
+
+
+
+
+
